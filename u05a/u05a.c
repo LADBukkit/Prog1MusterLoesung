@@ -1,5 +1,7 @@
 /* u05a - Numerik
  * 28.04.2020 - Marcel Transier
+ * Btw: Ihr müsst in den Abgaben nicht soo übertreiben mit den Kommentaren.
+ *      Hier sind nur so ausführliche, um alles verständlich zu machen :)
  */
 
 #include <stdio.h>
