@@ -1,7 +1,7 @@
 /*
  * Author:			Robin Eschbach
  * Datum:			05.05.2020
- * Beschreibung:	u07a - Zeichenketten Palindrome und Quersumme
+ * Beschreibung:		u07a - Zeichenketten Palindrome und Quersumme
  */
 
 #include <stdio.h>
