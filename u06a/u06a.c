@@ -11,9 +11,9 @@ void init(int intArr[], int arrSize) {
     // initialisieren des Zufallgenerators
     srand(time(NULL));
     /* 	Generelle Zufallszahlerzeugung
-	 *  int min = 5;
-	 *  int max = 20;
-	 *  intArr[i] = rand() % (max - min + 1) + min;
+     *  int min = 5;
+     *  int max = 20;
+     *  intArr[i] = rand() % (max - min + 1) + min;
 	 */
     for (int i = 0; i < arrSize; i++) {
         intArr[i] = (rand() % 5000) + 1;
@@ -34,14 +34,14 @@ int suche(int intArr[], int arrSize, int gesucht) {
     for (int i = 0; i < arrSize; i++) {
         if (intArr[i] == gesucht) {
             /*
-			 * Wenn "gesucht" im Array gefunden wurde,
-			 * wird die Funktion abgebrochen und der Index zurückgegeben.
-			 */
+             * Wenn "gesucht" im Array gefunden wurde,
+             * wird die Funktion abgebrochen und der Index zurückgegeben.
+             */
             return i;
         }
     }
     /* Wenn "gesucht" nicht gefunden wurde und die Funktion somit nicht
-	 * abgebrochen wurde, wird -1 zurückgegeben.
+     * abgebrochen wurde, wird -1 zurückgegeben.
      */
     return -1;
 }
