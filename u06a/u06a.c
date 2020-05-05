@@ -14,7 +14,7 @@ void init(int intArr[], int arrSize) {
      *  int min = 5;
      *  int max = 20;
      *  intArr[i] = rand() % (max - min + 1) + min;
-	 */
+     */
     for (int i = 0; i < arrSize; i++) {
         intArr[i] = (rand() % 5000) + 1;
     }
