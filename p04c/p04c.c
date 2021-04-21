@@ -1,4 +1,4 @@
-/* C-Programm u04c
+/* C-Programm p04c
 * Name: Maren
 * Datum: 21.04.2021
 * Inhalt: Bestimmung der Hypothenuse, des Radius und des Volumens
