@@ -14,14 +14,13 @@ void clear() {
     printf("\n\n\n");
 }
 
-
 bool isPrim(int zahl) {
 
     // Static, damit der Wert auch nach Aufruf der Funktion im Speicher erhalten bleibt.
     static int teiler = 2; 
 
     // Abbruchkriterium, da es ab hier keine sinnvollen Teiler mehr gibt.
-    if(teiler > zahl/2) {
+    if(teiler > zahl / 2) {
         // Den Teiler hier fuer den beginn eines neuen Aufrufs wieder auf '0' setzen. 
         teiler = 2;
 
@@ -41,7 +40,6 @@ bool isPrim(int zahl) {
         return isPrim(zahl);
     }
 }
-
 
 void doPFZ(int zahl, int teiler) {
 
