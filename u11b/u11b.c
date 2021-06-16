@@ -76,8 +76,8 @@ int main()
     cp = mixtexts(zkette1, zkette2);
     if (cp != (char *) 0) {
         /* Abschlussausgabe */
-	printf("Das Loesungswort ist: |%s|\n", cp);
-	free(cp);
+	    printf("Das Loesungswort ist: |%s|\n", cp);
+	    free(cp);
     }
     return 0;
 }
